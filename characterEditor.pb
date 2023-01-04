@@ -4765,5 +4765,5 @@ WindowCharacterEditor()
 ; EnableOnError
 ; Warnings = Display
 ; EnablePurifier
-; EnableCompileCount = 415
+; EnableCompileCount = 417
 ; EnableBuildCount = 0
