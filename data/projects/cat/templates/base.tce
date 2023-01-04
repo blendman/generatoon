@@ -1,0 +1,9 @@
+; Obj,name,x,y,folder,miror,colortype,clone of part,random hide,rotation,scale,alpha
+obj,body7,-18,75,body,0,1,,0,0,100,255,
+obj,head0,-1,23,head,0,1,,0,0,100,255,
+obj,mouth4,-9,-33,mouth,0,1,,0,0,100,255,
+obj,eye2,45,-68,eye,0,0,,0,0,100,255,
+obj,nose3,-5,-52,nose,0,0,,0,0,100,255,
+obj,eye1,-71,-67,eye,0,1,,0,0,100,255,
+obj,hear8,-82,-134,hear,0,1,,0,0,100,255,
+obj,hear9,50,-131,hear,1,1,,0,14,100,255,

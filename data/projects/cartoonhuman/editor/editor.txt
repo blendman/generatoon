@@ -1,0 +1,21 @@
+; file to add some UI (gadgets) on the editor
+;*************************
+;-- Each line should : // chaque line doit ressembler à ceci : 
+; gadget,type,name,image,panel(left/right),tab,x,y,width,height,script,text,parameters,
+;-- Details : 
+; type of UI (gadget), type of gadgets, name, image used (for buton image),panel (left/right), tab used, x, y, width, height,Script,textparameter,parameters,
+;*************************
+;-- Explication : 
+; type of UI : gadget, other type of ui could be added.
+; type of gadgets : 0 = buton image, 1 = buton text, 2 = spin, 3=string, 4 =checkbox, 5=combobox, 6=canvas,
+; name : name to use for the UI (gadget)
+; image used for the gadget (if used) : it's used for : buton image. Images used should be in data\editor\
+; Panel : where is the gadget (what panel contain it) : the left panel or right panel
+; in what tab (of the panel) the gadget is drawn ? It's an id like : 0,1,2,3... if the panel has only 2 tab and you use id =3, it add a new panel for the gadget.
+; x,y : position of the gadget
+; width, height : size of the gadget
+; Script (not necessary for all gadgets) = what Script open, when the gadget is activated (for a buton for example) : ChangeFolderImage(), ChangeFolder(), ChangeProjectFolder()...
+; textparameter : text for the Tooltips (infobulles)
+; default parameters : what is the paramters for the script (several should be separated with "/;". Example : 1;/2;2;0;/4;1;/1;0;/. (4 parameters, with several value for each of them)
+gadget,0,eye,eye.png,left,0,10,300,25,25,ChangeFolderImage(),eye,0,
+gadget,0,mouth,mouth.png,left,0,40,300,25,25,ChangeFolderImage(),mouth,1,
