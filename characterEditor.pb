@@ -2,7 +2,7 @@
 
 ;{ GENERAL INFOS
 ; window Character Generator (CHG_)
-; blendman 2021-2023, pb5.61, 5.73
+; blendman 2021-2023, pb 5.73 x86 (should work on 64)
 ; video :  https://www.youtube.com/watch?v=dHUIYqc641w
 
 ; Some codes are by developpers from purebasic forum : Mickael Vogel, LSI, Wilbert, Guillot, Naheulf, Chi,
@@ -4757,13 +4757,15 @@ EndProcedure
 WindowCharacterEditor()
 
 ; IDE Options = PureBasic 5.73 LTS (Windows - x86)
-; CursorPosition = 3902
-; FirstLine = 63
-; Folding = q-sDAgAQw0wjPAAAAAAA--xfQAAAgu0BAAAAAAAAAAAAMNAAAAofAAAAAgPQEAAAAAAAAAAACVPweAeAYAAAw-B8dNgAAAAAAAAAAJkRYAk-
+; CursorPosition = 4
+; Folding = r-sDAgAQw0wjPAAAAAAA--xfQAAAgu0BAAAAAAAAAAAAMNAAAAofAAAAAgPQEAAAAAAAAAAACVPweAeAYAAAw-B8dNgAAAAAAAAAAJkRYAk-
 ; EnableAsm
 ; EnableXP
 ; EnableOnError
+; UseIcon = generatoon.ico
+; Executable = generatoon.exe
+; DisableDebugger
 ; Warnings = Display
 ; EnablePurifier
-; EnableCompileCount = 417
-; EnableBuildCount = 0
+; EnableCompileCount = 420
+; EnableBuildCount = 3
