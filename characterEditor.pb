@@ -4767,5 +4767,5 @@ WindowCharacterEditor()
 ; DisableDebugger
 ; Warnings = Display
 ; EnablePurifier
-; EnableCompileCount = 420
+; EnableCompileCount = 422
 ; EnableBuildCount = 3
